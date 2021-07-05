@@ -2,6 +2,8 @@
 
 jsonifier is a TouchDesigner component that autosaves all (or specified) custom parameters in a project to external `JSON` files, which can be restored on project relaunch, relinquishing the need to `ctrl-s` in production/multi-machine environments.
 
+![jsonifier](screenshot.png)
+
 ## Features
 
 ### Exclude Paths
@@ -20,7 +22,7 @@ Custom parameter attributes and values are kept up-to-date by default in each `J
 Custom parameter OPs can automatically be discovered in timed intervals while the project is running during development. This setting can then be turned off to reduce compute during production.
 
 
-## USAGE
+## Usage
 
 1. (OPTIONAL) Add any strings you want to exclude from externalization. For example, if you do not want to include any COMP with the name `folderTabs`, add `folderTabs` to the Exclude Paths par.
 
