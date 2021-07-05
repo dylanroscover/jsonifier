@@ -20,27 +20,27 @@ Custom parameter attributes and values are kept up-to-date by default in each JS
 Custom parameter OPs can automatically be discovered in timed intervals while the project is running during development. This setting can then be turned off to reduce compute during production.
 
 
-USAGE
+## USAGE
 
 1a. (OPTIONAL) Add any strings you want to exclude from externalization. For example, if you do not want to include any COMP with the name 'folderTabs', add 'folderTabs' to the Exclude Paths par.
 
-NOTE: Use single-space separation ('apples oranges bananas'). Do not include single quotes in the par field ;).
+>> Use single-space separation ('apples oranges bananas'). Do not include single quotes in the par field ;).
 
 1b. (OPTIONAL) Add any strings you want to include from externalization. For example, if you want to include only COMPs with the name 'settings', add 'settings' to the Exclude Paths par. 
 
-NOTE: Use single-space separation ('apples oranges bananas'). Do not include single quotes in the par field ;).
+>> Use single-space separation ('apples oranges bananas'). Do not include single quotes in the par field ;).
 
 
 2. Specify the folder you want the externalizations to be saved into. Note that if the folder does not exist, it will be created.
 
-If you want to change the folder after externalizing, note that the old folder contents will not be deleted.
+>> If you want to change the folder after externalizing, note that the old folder contents will not be deleted.
 
-Also note that expressions can be used (project.folder + '/lib', for example).
+>> Also note that expressions can be used (project.folder + '/lib', for example).
 
 
 3. Click on Find & Save Externalizations to externalize all parameters. The component will loop through the entire project until all settings are saved as external JSON files.
 
-Note that you can also call op.jsonifier.Save() from anywhere in your network to perform a save.
+>> Note that you can also call op.jsonifier.Save() from anywhere in your network to perform a save.
 
 
 4. Once externalized, parameters will automatically update as they are adjusted via a parexecDAT that is automatically added to every found COMP.
@@ -51,9 +51,9 @@ Note that you can also call op.jsonifier.Save() from anywhere in your network to
 
 6. When the project is relaunched, jsonifier will automatically reload all custom par settings from the external JSON files.
 
-Note: this can be called manually via the Load Externalizations button in jsonifier Settings.
+>>: This can be called manually via the Load Externalizations button in jsonifier Settings.
 
 
->> 7. To delete a configuration, click the Delete Externalizations button. This will remove all JSON textDATs, external JSON (.py) files and parexecDATs.
+7. To delete a configuration, click the Delete Externalizations button. This will remove all JSON textDATs, external JSON (.py) files and parexecDATs.
 
-For debugging, the Reset button deletes only the textDATs in the jsonifier component, and ignores externalized json files.
+>> For debugging, the Reset button deletes only the textDATs in the jsonifier component, and ignores externalized json files.
