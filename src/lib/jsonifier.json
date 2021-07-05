@@ -23,7 +23,20 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": "folderTabs",
+			"val": "",
+			"expr": null
+		},
+		"Includepaths": {
+			"name": "Includepaths",
+			"label": "Include Paths (Space-separated)",
+			"page": "Settings",
+			"style": "Str",
+			"default": "",
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": "",
 			"expr": null
 		},
 		"Savefolder": {
@@ -41,7 +54,7 @@
 		},
 		"Savesettings": {
 			"name": "Savesettings",
-			"label": "Save Settings",
+			"label": "Save Externalizations",
 			"page": "Settings",
 			"style": "Pulse",
 			"default": false,
@@ -67,7 +80,7 @@
 		},
 		"Loadsavedsettings": {
 			"name": "Loadsavedsettings",
-			"label": "Load Saved Settings",
+			"label": "Load Externalizations",
 			"page": "Settings",
 			"style": "Pulse",
 			"default": false,
@@ -76,6 +89,19 @@
 			"readOnly": false,
 			"enableExpr": null,
 			"val": 0,
+			"expr": null
+		},
+		"Deletereset": {
+			"name": "Deletereset",
+			"label": "Delete/Reset",
+			"page": "Settings",
+			"style": "Header",
+			"default": "",
+			"enable": true,
+			"startSection": true,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": "",
 			"expr": null
 		},
 		"Deleteexternalizations": {
@@ -91,9 +117,22 @@
 			"val": 0,
 			"expr": null
 		},
-		"Updating": {
-			"name": "Updating",
-			"label": "Updating",
+		"Reset": {
+			"name": "Reset",
+			"label": "Reset",
+			"page": "Settings",
+			"style": "Pulse",
+			"default": false,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": 0,
+			"expr": null
+		},
+		"Update": {
+			"name": "Update",
+			"label": "Update",
 			"page": "Settings",
 			"style": "Header",
 			"default": "",
@@ -104,8 +143,8 @@
 			"val": "",
 			"expr": null
 		},
-		"Autoupdateexternalizatons": {
-			"name": "Autoupdateexternalizatons",
+		"Autoupdateexternalizations": {
+			"name": "Autoupdateexternalizations",
 			"label": "Auto Update Externalizations",
 			"page": "Settings",
 			"style": "Toggle",
@@ -149,7 +188,7 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "0.1.0",
+			"val": "0.2.0",
 			"expr": null
 		},
 		"Readme": {
