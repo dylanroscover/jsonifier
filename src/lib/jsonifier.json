@@ -54,7 +54,7 @@
 		},
 		"Savesettings": {
 			"name": "Savesettings",
-			"label": "Save Externalizations",
+			"label": "Find & Save Externalizations",
 			"page": "Settings",
 			"style": "Pulse",
 			"default": false,
@@ -76,6 +76,19 @@
 			"readOnly": false,
 			"enableExpr": null,
 			"val": "",
+			"expr": null
+		},
+		"Autoloadparsonstart": {
+			"name": "Autoloadparsonstart",
+			"label": "Auto-load Parameters on Start",
+			"page": "Settings",
+			"style": "Toggle",
+			"default": false,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": true,
 			"expr": null
 		},
 		"Loadsavedsettings": {
@@ -143,9 +156,22 @@
 			"val": "",
 			"expr": null
 		},
+		"Keepparvalsupdated": {
+			"name": "Keepparvalsupdated",
+			"label": "Keep Par Values Up-to-date",
+			"page": "Settings",
+			"style": "Toggle",
+			"default": false,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"val": true,
+			"expr": null
+		},
 		"Autoupdateexternalizations": {
 			"name": "Autoupdateexternalizations",
-			"label": "Auto Update Externalizations",
+			"label": "Auto Find Externalizations",
 			"page": "Settings",
 			"style": "Toggle",
 			"default": false,
@@ -158,7 +184,7 @@
 		},
 		"Autoupdatefrequencysec": {
 			"name": "Autoupdatefrequencysec",
-			"label": "Auto Update Frequency (sec)",
+			"label": "Auto Find Frequency (sec)",
 			"page": "Settings",
 			"style": "Float",
 			"size": 1,
