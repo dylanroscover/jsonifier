@@ -2,8 +2,7 @@
 
 jsonifier is a TouchDesigner component that autosaves all (or specified) custom parameters in a project to external `JSON` files, which can be restored on project relaunch, relinquishing the need to `ctrl-s` in production/multi-machine environments.
 
-![jsonifier lister ui](img/screenshot1.png)
-![jsonifier custom pars](img/screenshot2.png)
+![jsonifier ui](img/screenshot.png)
 
 ## Features
 
