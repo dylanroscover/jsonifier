@@ -17,7 +17,7 @@
 			"normMax": 1.0,
 			"clampMin": false,
 			"clampMax": false,
-			"val": 0.471,
+			"val": 0.25,
 			"expr": null
 		}
 	}
