@@ -10,6 +10,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": 0,
 			"expr": null
 		},
@@ -23,6 +24,7 @@
 			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": "",
 			"expr": null
 		},
@@ -36,11 +38,12 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": true,
 			"expr": null
 		},
-		"Autoupdateexternalizations": {
-			"name": "Autoupdateexternalizations",
+		"Autoupdate": {
+			"name": "Autoupdate",
 			"label": "Auto-find Externalizations",
 			"page": "Settings",
 			"style": "Toggle",
@@ -49,11 +52,12 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": false,
 			"expr": null
 		},
-		"Autoupdatefrequencysec": {
-			"name": "Autoupdatefrequencysec",
+		"Autoupdatefreq": {
+			"name": "Autoupdatefreq",
 			"label": "Auto-find Frequency (sec)",
 			"page": "Settings",
 			"style": "Float",
@@ -63,6 +67,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"min": 0.0,
 			"max": 1.0,
 			"normMin": 10.0,
@@ -82,25 +87,13 @@
 			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
-			"val": "",
-			"expr": null
-		},
-		"Excludepaths": {
-			"name": "Excludepaths",
-			"label": "Exclude Paths (Space-separated)",
-			"page": "Settings",
-			"style": "Str",
-			"default": "",
-			"enable": true,
-			"startSection": false,
-			"readOnly": false,
-			"enableExpr": null,
+			"help": "",
 			"val": "",
 			"expr": null
 		},
 		"Includepaths": {
 			"name": "Includepaths",
-			"label": "Include Paths (Space-separated)",
+			"label": "Include Paths (space-separated)",
 			"page": "Settings",
 			"style": "Str",
 			"default": "",
@@ -108,7 +101,36 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
+			"val": "/project1/jsonifier",
+			"expr": null
+		},
+		"Excludepaths": {
+			"name": "Excludepaths",
+			"label": "Exclude Paths (space-separated)",
+			"page": "Settings",
+			"style": "Str",
+			"default": "",
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"help": "",
 			"val": "",
+			"expr": null
+		},
+		"Recursive": {
+			"name": "Recursive",
+			"label": "Recursive (include all children COMPs)",
+			"page": "Settings",
+			"style": "Toggle",
+			"default": false,
+			"enable": true,
+			"startSection": false,
+			"readOnly": false,
+			"enableExpr": null,
+			"help": "",
+			"val": true,
 			"expr": null
 		},
 		"Savefolder": {
@@ -121,8 +143,9 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": "lib",
-			"expr": "project.folder + '/lib'"
+			"expr": null
 		},
 		"Savesettings": {
 			"name": "Savesettings",
@@ -134,6 +157,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": 0,
 			"expr": null
 		},
@@ -147,6 +171,7 @@
 			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": "",
 			"expr": null
 		},
@@ -160,6 +185,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": true,
 			"expr": null
 		},
@@ -173,6 +199,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": 0,
 			"expr": null
 		},
@@ -186,6 +213,7 @@
 			"startSection": true,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": "",
 			"expr": null
 		},
@@ -199,6 +227,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": 0,
 			"expr": null
 		},
@@ -212,6 +241,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": 0,
 			"expr": null
 		}
@@ -227,7 +257,8 @@
 			"startSection": false,
 			"readOnly": true,
 			"enableExpr": null,
-			"val": "0.3.0",
+			"help": "",
+			"val": "0.4.0",
 			"expr": null
 		},
 		"Readme": {
@@ -240,6 +271,7 @@
 			"startSection": false,
 			"readOnly": false,
 			"enableExpr": null,
+			"help": "",
 			"val": 0,
 			"expr": null
 		}
