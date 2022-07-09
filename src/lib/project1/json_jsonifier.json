@@ -258,7 +258,7 @@
 			"readOnly": true,
 			"enableExpr": null,
 			"help": "",
-			"val": "0.4.0",
+			"val": "0.4.1",
 			"expr": null
 		},
 		"Readme": {
