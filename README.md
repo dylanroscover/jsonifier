@@ -2,7 +2,7 @@
 
 ### Auto-save/load custom pars to/from external json files in TouchDesigner
 #### :floppy_disk: TouchDesigner 2022.25370 (Windows)
-#### :floppy_disk: Current version 0.4.0
+#### :floppy_disk: Current version 0.4.1
 
 ## Overview
 
